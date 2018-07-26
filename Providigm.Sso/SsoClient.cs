@@ -18,7 +18,7 @@ namespace Providigm.Sso
             var formData = new Dictionary<string, string>
             {
                 {"user_full_name", "testuser"},
-                {"user_sso_id", "daren123"},
+                {"user_sso_id", "testuser123"},
                 {"user_email", "test123@providigm.com"},
                 {"cse_type", "c"},
                 {"cse_id", "1"},
