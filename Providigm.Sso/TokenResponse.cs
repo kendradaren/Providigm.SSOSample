@@ -16,7 +16,7 @@ namespace Providigm.Sso
 
         public TokenResponse(string response)
         {
-            var lines = response.Split('\n');
+            var lines = response.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
             if (lines.Length < 3)
             {
                 throw new Exception("Invalid response");
